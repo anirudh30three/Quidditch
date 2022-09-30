@@ -1,0 +1,310 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    cursor: url(harry.png), auto;
+}
+  
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 64px;
+}
+  
+p {
+    font-family: 'Satisfy', cursive;
+}
+  
+  
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s all linear;  
+}
+  
+.snitch {
+    height: 100px;
+    width: auto;
+}
+  
+.dementor {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: fly 30s infinite;
+    animation-direction: alternate;
+}
+  
+@keyframes fly {
+    0% {
+      top: 0px;
+      left: 0px;
+    }
+    25% {
+      top: 200px;
+      left: 300px;
+    }
+    50% {
+      top: 50px;
+      left: 600px;
+    }
+    75% {
+      top: 800px;
+      left: 800px;
+    }
+    100% {
+      top: 500px;
+      left: 1200px;
+    }
+}
+  
+@keyframes disappear {
+    from {
+      width: 200px;
+    }
+    to {
+      width: 0.000001px;
+    }
+}
+  
+h3 {
+    font-family: 'Yusei Magic', sans-serif;
+    text-shadow: 2px 1px grey;
+    font-size: 55px;
+}
+  
+.time {
+    font-size: 35px;
+}
+  
+#play {
+    width: 215px;
+    height: 200px;
+}
+  
+.startContainer {
+    border: 3px solid blue;
+    width: 500px;
+    margin: auto;
+    height: 410px;
+    border-radius: 14px;
+    background-color: azure;
+    cursor: auto;
+}
+  
+.timer {
+    text-align: right;
+    width: 1824px;
+    height: 51px;
+}
+  
+.tempAnimation {
+    animation: temp 20s infinite;
+    animation-direction: alternate;
+}
+  
+@keyframes temp {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    25% {
+      top: 200px;
+      left: 200px;
+    }
+    50% {
+      top: 400px;
+      left: 500px;
+    }
+    75% {
+      top: 600px;
+      left: 800px;
+    }
+    100% {
+      top: 400px;
+      left: 1200px;
+    }
+}
+  
+.settingsButton {
+    text-align: right;
+}
+  
+#settings {
+    width: 50px;
+}
+  
+#name {
+    margin-top: -5px;
+}
+  
+button {
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid skyblue;
+    border-radius: 9px;
+    background-color: aliceblue;
+    width: 105px;
+    height: 40px;
+}
+  
+#timerFormat {
+    margin: auto;
+    margin-top: 30px;
+}
+  
+h2 {
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+  
+select {
+    border: 2px solid skyblue;
+    border-radius: 14px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+}
+  
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+  
+#difficulty {
+    width: 80px;
+}
+  
+#seconds {
+    width: 50px;
+}
+  
+.backimg {
+    width: 50px;
+    height: 30px;
+}
+  
+#start {
+    margin: auto;
+}
+  
+#back {
+    margin: auto;
+    display: inline-block;
+    margin-right: -130px;
+}
+  
+.controls {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+  
+.chooser {
+    width: 45px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    background-color: lightblue;
+    margin: auto;
+}
+  
+.switch {
+    width: 20px;
+    height: 100%;
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+}
+  
+.format1 {
+    right: 0px;
+}
+  
+.timerFormat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.back {
+    width: 200px;
+    height: 25px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+  
+.front {
+    width: 0px;
+    height: 25px;
+    background-image: linear-gradient(azure, lightgreen);
+}
+  
+@keyframes demo {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 200px;
+    }
+}
+  
+.back1 {
+    width: 200px;
+    height: 25px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+  
+.front1 {
+    width: 0px;
+    height: 25px;
+    background-image: linear-gradient(azure, lightgreen);
+}
+
+#back1 {
+    margin-top: 70px;
+}
+  
+.barTime {
+    float: right;
+}
+  
+@keyframes fly2 {
+    0% {
+      top: 0px;
+      right: 0px;
+    }
+    25% {
+      top: 200px;
+      right: 300px;
+    }
+    50% {
+      top: 50px;
+      right: 600px;
+    }
+    75% {
+      top: 800px;
+      right: 800px;
+    }
+    100% {
+      top: 500px;
+      right: 1200px;
+    }
+}
+  
+.dementor1 {
+    position: absolute;
+}

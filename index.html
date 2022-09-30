@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quidditch</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="message"></h1>
+    <p id="directions">Click on the golden snitch to catch it.</p>
+    <div class="timer">
+    <h3 class="time">Time left: 20</h3>
+      <div class="barTime">
+        <div class="back1">
+          <div class="front1">
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="startContainer">
+      <div class="settingsButton">
+      <img src="settings.png" id="settings">
+      </div>
+      <h1 id="name">Quidditch</h1>
+      <img src="play.png" id="play">
+      <div class="settings">
+        <h2>Difficulty:</h2>
+        <select id="difficulty">
+          <option>Easy</option>
+          <option>Medium</option>
+          <option>Hard</option>
+        </select>
+        <h2>Time:</h2>
+        <select id="seconds">
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+        </select>
+        <button id="timerFormat">Choose Timer Format</button>
+        <div class="controls">
+        <button id="back"><img src="back.png" class="backimg"></button>
+        <button id="start">Play</button>
+        </div>
+          </div>
+      <div class="timerFormat">
+         <div class="format">
+           <div class="demo1">
+             <h3>Time left:</h3>
+           </div>
+           <div class="demo2">
+             <div class="back">
+               <div class="front">
+             </div>
+             </div>
+           </div>
+         </div>
+         <h2 id="formatName"></h2>
+         <div class="chooser">
+         <div class="switch format2">
+         </div>
+         <div class="switch format1">
+       </div>
+        </div>
+        <button id="back1"><img src="back.png" class="backimg"></button>
+    </div>
+    </div>
+    <img src="dementor.gif" class="dementor1">
+    <img src="dementor.gif" class="dementor">
+    <div class="container">
+      <img src="snitch.gif" class="snitch">
+    </div>
+    
+    
+
+
+    <script src="scene.js"></script>
+    
+  </body>
+</html>
